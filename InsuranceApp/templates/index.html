@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+    
+    <table>
+        <tr>
+            <td><h2>Insurance Name</h2></td>
+            <td><h2>Age</h2></td>
+            <td><h2>Duration</h2></td>
+            <td><h2>Heavy Sick</h2></td>
+        </tr>
+        {% for k,v in insurance.items() %}
+        <tr>
+            <td>{{v.name}}</td>
+            <td>{{v.age}}</td>
+            <td>{{v.duration}}</td>
+            <td>{{v.number}}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+
+{% endblock %}
