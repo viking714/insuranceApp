@@ -1,6 +1,4 @@
-{% extends "layout.html" %}
 
-{% block content %}
 
 
     
@@ -17,9 +15,10 @@
             <td>{{v.age}}</td>
             <td>{{v.duration}}</td>
             <td>{{v.number}}</td>
+            <td><a href="/Detail/{{k}}">Detail</a></td>
         </tr>
         {% endfor %}
     </table>
 
 
-{% endblock %}
+

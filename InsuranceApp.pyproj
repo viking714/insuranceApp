@@ -41,6 +41,8 @@
     <Folder Include="InsuranceApp\templates\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="InsuranceApp\templates\login.html" />
+    <Content Include="InsuranceApp\templates\Detail.html" />
     <Content Include="requirements.txt" />
     <Content Include="InsuranceApp\static\content\bootstrap.css" />
     <Content Include="InsuranceApp\static\content\bootstrap.min.css" />
