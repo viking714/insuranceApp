@@ -7,7 +7,6 @@ from flask import render_template,jsonify,request,redirect,session
 from InsuranceApp import app
 
 
-
 InsuranceDict = {1:{"name":"PingAn","age":"18-50","duration":"Whole Life","number":"120"},
 				 2:{"name":"PingAnFu2019","age":"18-50","duration":"Whole Life","number":"100"}}
 
