@@ -50,6 +50,7 @@ def login():
 		session['user'] = user
 		session['pwd'] = password
 		if user == 'Joey' and password == '123':
+			#redirect('/home')
 			return render_template('index.html',title='Home Page',year=datetime.now().year,insurance = InsuranceDict)
 		return render_template('login.html',error='user or password error')
 

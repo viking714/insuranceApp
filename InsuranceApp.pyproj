@@ -28,6 +28,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="settings.py" />
     <Compile Include="runserver.py" />
     <Compile Include="InsuranceApp\__init__.py" />
     <Compile Include="InsuranceApp\views.py" />

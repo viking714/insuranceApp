@@ -8,6 +8,7 @@ class ProductionConfig(Config):
 
 class DevelopmentConfig(Config):
 	DEBUG = True
+	SECRET_KEY = '123456'
 
 class TestingConfig(Config):
 	TESTING = True
